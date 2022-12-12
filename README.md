@@ -1,10 +1,12 @@
 **Music Recommendation System**
 
 The goal of this project is to create a Music recommendation system based on unsupervised machine learning recommendation approaches that find and recommend similar music based on the user's preferences
--Approach 1: Content Based Recommendation System. In this task, we have used K-Means clustering algorithm to cluster songs based numeric audio features like valence, acousticness, danceability etc to recommend songs based on artist, genre and song names.
--Approach 2: Collaborative Filtering Recommendation System In this task, songs are recommended based on similar user’s preferences with the help of KNN and SVD         algorithm.
 
-
+We have explored two types of recommendation systems:
+- **Approach 1: Content Based Recommendation System**
+In this task, we have used K-Means clustering algorithm to cluster songs based numeric audio features like valence, acousticness, danceability etc to recommend songs based on artist, genre and song names.
+- **Approach 2: Collaborative Filtering Recommendation System**
+In this task, songs are recommended based on similar user’s preferences with the help of KNN and SVD algorithm.
 
 We have implemented five variations of the models:
 
